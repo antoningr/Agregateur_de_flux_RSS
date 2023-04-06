@@ -25,7 +25,7 @@ The general architecture of an RSS feed aggregator includes three major componen
 
 Overall, the general architecture of the project is designed to be efficient, scalable and easy to maintain. The various components are seamlessly integrated to provide a consistent user experience and optimal performance.
 
-![](images/architecture_générale_agrégateur_de_flux_RSS.png)
+![](images/general_architecture_flux_aggregator_RSS.png)
 
 
 ## Description of the project
@@ -84,10 +84,13 @@ python app.py
 - The web application should now work and be accessible via a web browser.
 
 
-## Page d'accueil avec les dernières actualités
-La page d'accueil de l'application web affiche les dernières actualités disponibles dans la base de données. Les actualités sont affichées sous forme de tableau avec les informations suivantes :
-- Titre de l'article
-- Date de publication
-- Lien vers l'article
-- Description de l'article
-<img src="images/app_page_accueil.png" alt="Page d'accueil de l'application">
+## Home page with the latest news
+The home page of the web application displays the latest news available in the database. The news items are displayed in a table format with the following information:
+- Title of the article
+- Date of publication
+- Link to the article
+- Description of the article
+
+<img src="images/app_homepage.png" alt="Application homepage">
+
+images\architecture_générale_agrégateur_de_flux_RSS.png
