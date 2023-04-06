@@ -2,13 +2,16 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Tableau des données</title>
+    <title>Flux RSS</title>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
     <div class="container">
-        <h1>Tableau des données</h1>
-        <table>
+        <h1 style="text-align:center;">RSS feed</h1>
+        <h3>RSS (Really Simple Syndication) is a data format used to publish frequently updated content, such as blog posts, news, events, videos, etc. It allows websites and users to easily subscribe to this content to read it on another site or in an RSS reader. It allows websites and users to easily subscribe to this content to read it on another site or in an RSS reader. The RSS feed is usually available as an XML file that contains information about the content, such as the title, description, publication date, author and a link to the full article. Users can subscribe to an RSS feed using an RSS feed aggregator that regularly retrieves the latest updates from the feed and displays them in a user-friendly interface.</h3>
+        <hr>
+        <table class="table-striped">
+            <!-- En-tête de la table -->
             <thead>
                 <tr>
                     <th>Titre</th>
@@ -17,6 +20,7 @@
                     <th>Description</th>
                 </tr>
             </thead>
+            <!-- Corps de la table -->
             <tbody>
                 {% for row in data %}
                     <tr>
