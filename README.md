@@ -82,3 +82,12 @@ python app.py
 ```
 - Open a web browser, the web application is accessible at [http://127.0.0.1:5000](http://127.0.0.1:5000).
 - The web application should now work and be accessible via a web browser.
+
+
+## Page d'accueil avec les dernières actualités
+La page d'accueil de l'application web affiche les dernières actualités disponibles dans la base de données. Les actualités sont affichées sous forme de tableau avec les informations suivantes :
+- Titre de l'article
+- Date de publication
+- Lien vers l'article
+- Description de l'article
+<img src="images/app_page_accueil.png" alt="Page d'accueil de l'application">
