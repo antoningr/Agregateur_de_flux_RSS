@@ -4,8 +4,8 @@ from cassandra.auth import PlainTextAuthProvider
 import tkinter as tk
 import time
 
-app = Flask(__name__, template_folder='templates')
 
+app = Flask(__name__, template_folder='templates')
 
 # Configure Cassandra
 contact_points = ['localhost']
@@ -24,8 +24,3 @@ def display_data():
 
 if __name__ == '__main__':
     app.run(debug=True)
-
-
-
-
-

@@ -54,3 +54,31 @@ The project is available on the site [Github](https://github.com/) on the link :
 git clone https://github.com/antoningr/agregateur_de_flux_RSS.git
 ```
 - Press "Enter" to run the command. Git will then download the project to the current directory.
+
+
+## Python packages
+Before running the project, you have to make sure that all the python packages are correctly installed with the right versions in order to run this application.
+To install the packages and dependencies for the project, simply follow these instructions:
+- Open your terminal or command prompt.
+- Access the project directory with the cd command.
+- Install the Python packages and dependencies listed in the requirements.txt file, using the following command:
+```
+pip install -r requirements.txt
+```
+- Once the installation is complete, you can run the project.
+
+
+## Running the application
+After the project is properly installed with all the necessary packages, you can follow these instructions to run the web application:
+- Open a command prompt or terminal window.
+- Navigate to the root directory of the application where the app.py file is located.
+- Run the following command to start the web application:
+```
+python app.py
+```
+- If the application starts correctly, you should see output similar to the following:
+```
+* Running on http://127.0.0.1:5000/ (Press CTRL+C to exit)
+```
+- Open a web browser, the web application is accessible at [http://127.0.0.1:5000](http://127.0.0.1:5000).
+- The web application should now work and be accessible via a web browser.
