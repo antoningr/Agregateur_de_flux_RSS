@@ -4,7 +4,7 @@ from cassandra.auth import PlainTextAuthProvider
 import tkinter as tk
 import time
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='templates')
 
 
 # Configure Cassandra
