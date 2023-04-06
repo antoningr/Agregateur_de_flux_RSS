@@ -13,6 +13,18 @@ An RSS feed aggregator allows the user to subscribe to multiple content sources 
 
 RSS aggregators can be web applications or software installed on a computer or mobile device. They can be customized according to the user's preferences, such as selecting specific content sources, setting filters or categorizing feeds.
 
+
+## Architecture of an RSS feed aggregator
+The general architecture of an RSS feed aggregator includes three major components: the web scraping, the back-end and the front-end.
+
+- Web scraping is the process of collecting data from different online sources, such as websites, blogs and RSS feeds. In this project, we use web scraping tools such as Beautiful Soup, Scrapy and Selenium to extract information from online sources and store it in our database.
+
+- The back-end is the part of the project that processes the data collected by web scraping. We chose to use the Django framework for the back-end of our application. Django is an open source Python-based web framework that allows you to quickly develop complex web applications. We also used Kafka for streaming and data flow management, and Cassandra for the database.
+
+- The front end is the part of the application that the end user sees and uses. For our application, we chose to use a JavaScript framework such as React to create a responsive and friendly user interface for end users. We also used libraries such as Redux and Axios to handle application state and HTTP requests.
+
+Overall, the general architecture of the project is designed to be efficient, scalable and easy to maintain. The various components are seamlessly integrated to provide a consistent user experience and optimal performance.
+
 ![](images/architecture_générale_agrégateur_de_flux_RSS.png)
 
 
