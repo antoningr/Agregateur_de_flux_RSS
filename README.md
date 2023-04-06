@@ -92,5 +92,3 @@ The home page of the web application displays the latest news available in the d
 - Description of the article
 
 <img src="images/app_homepage.png" alt="Application homepage">
-
-images\architecture_générale_agrégateur_de_flux_RSS.png
