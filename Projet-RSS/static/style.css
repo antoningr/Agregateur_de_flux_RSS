@@ -1,0 +1,62 @@
+/* Définir une police de caractères par défaut pour tout le document */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Ajouter un gradient de fond pour le document */
+body {
+    background: linear-gradient(to bottom right, #3f87a6, #ebf8e1);
+}
+
+/* Centrer le contenu de la page */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Styler le tableau */
+table {
+    width: 80%;
+    max-width: 1000px;
+    border-collapse: collapse;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Styler les en-têtes de colonnes */
+th {
+    background: #3f87a6;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    padding: 20px;
+}
+
+/* Styler les cellules du tableau */
+td {
+    background: #fff;
+    color: #333;
+    padding: 20px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Ajouter une hover state pour les lignes */
+tr:hover {
+    background: #f5f5f5;
+}
+
+/* Styler les liens */
+a {
+    color: #3f87a6;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Ajouter une hover state pour les liens */
+a:hover {
+    color: #ebf8e1;
+}
