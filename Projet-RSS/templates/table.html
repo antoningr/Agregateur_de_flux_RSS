@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tableau des données</title>
+    <link rel="stylesheet" href="/Users/antoinesusini/Desktop/Projet-RSS/static/style.css">
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Titre</th>
+                <th>Date de publication</th>
+                <th>Lien</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in data %}
+                <tr>
+                    <td>{{ row.title }}</td>
+                    <td>{{ row.pubdate }}</td>
+                    <td><a href="{{ row.link }}" target="_blank">{{ row.link }}</a></td>
+                    <td>{{ row.description }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
