@@ -141,7 +141,7 @@ def kafka_canssandra(data):
     # Le dataFrame est ensuite stocké dans la base de données Cassandra
     session.execute("CREATE KEYSPACE IF NOT EXISTS your_keyspace WITH REPLICATION = {'class' : 'SimpleStrategy', 'replication_factor' : 1}")
     session.execute("USE your_keyspace")
-    session.execute("CREATE TABLE IF NOT EXISTS RSS (title text, pubdate text, link text, description text, PRIMARY KEY(pubdate, title)) WITH CLUSTERING ORDER BY (title DESC)")
+    session.execute("CREATE TABLE IF NOT EXISTS RSS (title text, pubdate text, link text, description text, PRIMARY KEY(title, pubdate)) WITH CLUSTERING ORDER BY (pubdate DESC)")
 
     # Insertion des données dans la base de données
     for _, row in data.iterrows():
