@@ -37,7 +37,7 @@ The project also aims to optimize the processing and dissemination of informatio
 
 Ultimately, the goal is to develop a robust and powerful solution for aggregating RSS feeds, capable of providing a quality user experience with a wide variety of sources and real-time updating. The project will be developed with a modular architecture, allowing easy scalability according to future needs and technological evolutions.
 
-![](images/images\architecture_flux_aggregator_RSS.png)
+![](images/architecture_flux_aggregator_RSS.png)
 
 
 ## Project information
